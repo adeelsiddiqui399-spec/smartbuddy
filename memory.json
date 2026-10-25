@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mem_user_pref_budget_zero",
+    "category": "preference",
+    "title": "Language, Device & Zero Budget Constraints",
+    "content": "Preferred Language: Roman Urdu (asaan, step-by-step instructions). Device: Android mobile. Budget: Zero ($0 / free tools only, do not suggest paid tools unless strictly necessary).",
+    "isActive": true,
+    "createdAt": 1792783664000,
+    "updatedAt": 1792783664000
+  },
+  {
+    "id": "mem_1",
+    "category": "instruction",
+    "title": "Structured Output Format",
+    "content": "Format answers with clear section headings, concise bullet points, and high-impact takeaways.",
+    "isActive": true,
+    "createdAt": 1792311375527,
+    "updatedAt": 1792311375527
+  },
+  {
+    "id": "mem_2",
+    "category": "instruction",
+    "title": "Action-Oriented Next Steps",
+    "content": "Always conclude complex answers with concrete, immediate action items.",
+    "isActive": true,
+    "createdAt": 1792325775527,
+    "updatedAt": 1792325775527
+  },
+  {
+    "id": "mem_3",
+    "category": "preference",
+    "title": "Direct & Professional Tone",
+    "content": "Keep tone direct, polished, analytical, and respectful without repetitive filler phrases.",
+    "isActive": true,
+    "createdAt": 1792347775527,
+    "updatedAt": 1792347775527
+  },
+  {
+    "id": "mem_4",
+    "category": "context",
+    "title": "Mobile-First Accessibility",
+    "content": "Optimized for quick reading on Android mobile screens, short paragraphs, and digestible modules.",
+    "isActive": true,
+    "createdAt": 1792367775527,
+    "updatedAt": 1792367775527
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "My Personal AI Agent",
+  "description": "Mobile-friendly multi-agent assistant featuring a Main Orchestrator, Research, Writing, Technical, and Task Manager specialists with persistent memory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

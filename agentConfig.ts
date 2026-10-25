@@ -1,0 +1,66 @@
+import { AgentId, AgentInfo } from './types';
+
+export const AGENTS_INFO: Record<AgentId, AgentInfo> = {
+  main: {
+    id: 'main',
+    name: 'SmartBuddy (Main Agent)',
+    role: 'Your Global AI Assistant',
+    shortDescription: 'Receives instructions in any language worldwide, coordinates the 4 specialist agents, and delivers complete, real-world solutions.',
+    specialties: ['Intent decomposition', 'Global orchestration', 'Task delegation', 'Quality synthesis', 'Multilingual fluency'],
+    color: 'teal',
+    accentBg: 'bg-teal-500/10',
+    accentBorder: 'border-teal-500/30',
+    badgeColor: 'text-teal-300 bg-teal-500/10 border-teal-500/20',
+  },
+  research: {
+    id: 'research',
+    name: 'Research Agent',
+    role: 'Information & Discovery',
+    shortDescription: 'Investigates background data, comparative facts, market research, advertising demographics, and educational topics.',
+    specialties: ['Fact checking', 'Market analysis', 'Ad audience targeting', 'Educational science', 'Free-tier software'],
+    color: 'cyan',
+    accentBg: 'bg-cyan-500/10',
+    accentBorder: 'border-cyan-500/30',
+    badgeColor: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
+  },
+  writing: {
+    id: 'writing',
+    name: 'Writing Agent',
+    role: 'Communication & Content',
+    shortDescription: 'Drafts high-converting ad copy, WhatsApp Business templates, ATS CVs, business proposals, and polished messages.',
+    specialties: ['Meta ad copywriting', 'WhatsApp Business scripts', 'ATS CVs & proposals', 'Roman Urdu/Urdu copy', 'Tone calibration'],
+    color: 'amber',
+    accentBg: 'bg-amber-500/10',
+    accentBorder: 'border-amber-500/30',
+    badgeColor: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+  },
+  technical: {
+    id: 'technical',
+    name: 'Technical Agent',
+    role: 'Architecture & Engineering',
+    shortDescription: 'Creates responsive web pages, solves coding bugs, designs Android app architectures, and performs mathematical computations.',
+    specialties: ['Responsive web creation', 'JavaScript/TypeScript/Python', 'Android (Kotlin/Compose)', 'Math & algorithms', 'Free hosting setups'],
+    color: 'emerald',
+    accentBg: 'bg-emerald-500/10',
+    accentBorder: 'border-emerald-500/30',
+    badgeColor: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
+  },
+  task_manager: {
+    id: 'task_manager',
+    name: 'Task Manager Agent',
+    role: 'Execution & Operations',
+    shortDescription: 'Structures actionable checklists, day-by-day content calendars, milestone tracking, and persistent task management.',
+    specialties: ['Actionable checklists', 'Content publishing calendars', 'Ad rollout roadmaps', 'Milestone tracking', 'Risk mitigation'],
+    color: 'purple',
+    accentBg: 'bg-purple-500/10',
+    accentBorder: 'border-purple-500/30',
+    badgeColor: 'text-purple-400 bg-purple-500/10 border-purple-500/20',
+  },
+};
+
+export const SPECIALIST_AGENTS: AgentInfo[] = [
+  AGENTS_INFO.research,
+  AGENTS_INFO.writing,
+  AGENTS_INFO.technical,
+  AGENTS_INFO.task_manager,
+];
